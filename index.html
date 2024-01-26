@@ -1,0 +1,163 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive HTML5 CSS3 Navigation Menu - No Framework</title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/93412ecefe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="navbar desktop-menu">
+        <div class="logo">
+            <a href="#"><img src="img/banner.png" alt="my-logo" /></a>
+        </div>
+        <div id="menuSection" class="menu-sec">
+            <ul class="nav-menu">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <i class="fas fa-basketball-ball"></i>
+        </div>
+    </div>
+    <div onclick="closeMobMenuToggle()" id="mobMenuCont" class="mob-menu-container">
+        <img src="https://raw.githubusercontent.com/arravind-r/Responsive-HTML5-Navigation-Menu/main/src/close.png"
+            alt="close-icon" />
+    </div>
+    <div id="mobMenuWrap" class="mob-menu-wrap">
+        <div class="menu-content">
+            <div class="menu-items">
+                <ul class="nav-menu">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-items">
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="logo">
+            <a href="#"><img
+                    src="img/banner.png"
+                    alt="my-logo" /></a>
+        </div>
+        <button onclick="mobMenuToggle()" class="menu" style="color: white; font-family: fantasy;">Menu</button>
+    </div>
+    <div class="body-content">
+        <div class="overlay"></div>
+        <img src="https://clapps.com.ar/wp-content/uploads/2017/08/Hip-Hop-11.jpg" alt="Imagen">
+        <div class="image-text">Mejores Artistas del Hip Hop</div>
+    </div>
+
+    <div class="body-info">
+        <img src="https://i0.wp.com/urbanroosters.news/wp-content/uploads/2020/06/BLOCK-PARTIES.jpg?resize=791%2C522&ssl=1s"
+            alt="">
+        <h2><u>Origen</u></h2>
+        <p>La cultura Hip Hop nació en los setenta en barrios de Nueva York poblados por habitantes afroamericanos como
+            el Bronx y el Harlem. Si bien rápidamente el movimento se extendió al resto del mundo, a causa de sus
+            orígenes marginales fue un movimiento invisibilizado y discriminado durante décadas.</p>
+    </div>
+    <div class="body-info-reverse">
+        <img src="https://madradio.co/wp-content/uploads/2022/03/oriegn-hip-hop-jpg.webp" alt="">
+        <p>El hip hop se desarrolló a partir de una mezcla de influencias musicales, incluyendo el funk, el soul, el
+            R&B, el jazz y el rock. Los DJs usaban discos de vinilo de diferentes géneros para crear nuevos beats y
+            mezclas, mientras que los MCs tomaban prestados elementos de diferentes géneros para crear sus letras.</p>
+    </div>
+    <div class="body-artist-back">
+        <div class="body-artist">
+            <div class="artists">
+                <img src="https://i.scdn.co/image/dd031b9c5d1b6eba4a691cd89c954255aae787f2" alt="">
+                <h3>50 CENT</h3>
+            </div>
+            <div class="artists">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Snoop_Dogg_at_City_Stages.jpg/960px-Snoop_Dogg_at_City_Stages.jpg"
+                    alt="">
+                <h3>SNOOP DOG</h3>
+            </div>
+            <div class="artists">
+                <img src="https://images.hola.com/mx/imagenes/actualidad/20220924217776/kanye-west-nueva-polemica-adidas/1-142-704/kwest-m.jpg?tx=w_680"
+                    alt="">
+                <h3>YE</h3>
+            </div>
+        </div>
+        <div class="body-artist" style="margin-top: -2%;">
+            <div class="artists">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF5AM-aOvafzpjyBbswABHyF6OHZyvyVkbuA"
+                    alt="">
+                <h3>DRAKE</h3>
+            </div>
+            <div class="artists">
+                <img src="https://media.revistagq.com/photos/646de2261c98f4b14744326a/1:1/w_3712,h_3712,c_limit/1492428431"
+                    alt="">
+                <h3>TRAVIS SCOTT</h3>
+            </div>
+            <div class="artists">
+                <img src="https://i.discogs.com/lsqOLtq64-x6DhifqZjllDGgszxa-30mm_gVQrR9_kM/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMy/LTEyMjc1NTM0Njcu/anBlZw.jpeg"
+                    alt="">
+                <h3>ICE CUBE</h3>
+            </div>
+        </div>
+    </div>
+    <div class="body-content-info">
+        <img src="https://images-prod.dazeddigital.com/1050/azure/dazed-prod/1300/8/1308333.jpg" alt="">
+        <p>El tiempo y el desarrollo del género le fue ganando batallas al prejuicio y al desconocimiento y hoy hablar
+            de hip hop es hablar de una reivindicación cultural y social que se expresa a través del rap, freestyle,
+            graffitti, breakdance, DJ's y tantas otras vertientes.</p>
+    </div>
+    <div class="body-content-conclusion">
+        <div class="body-content-sombra"></div>
+        <img src="https://almahiphop.files.wordpress.com/2020/05/a9996-uk-sound-system-culture.jpg" alt="">
+        <p>Sus diferentes expresiones presentan en común la relación con la resistencia y lucha ante contextos de
+            vulnerabilidad social, pobreza y violencia, elementos que subyacen a la coyuntura histórica que dio
+            nacimiento a la cultura.
+            <br>
+            La cultura Hip hop ayuda a aumentar la creatividad y a mejorar la calidad de vida de las personas y los
+            jóvenes porque la cul- tura hip hop no es solo música sino es un estilo de vida.
+        </p>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="img/banner.png" alt="">
+            </div>
+            <div class="footer-section">
+                <h2>Derechos</h2>
+                <p>Copyright© info Hip-Hop</p>
+            </div>
+            <div class="footer-section">
+                <h2>Redes Sociales</h2>
+                <div class="social-icons">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/transform.js"></script>
+</body>
+
+</html>
